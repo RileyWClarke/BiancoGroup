@@ -1,0 +1,16 @@
+6/6/2019
+
+Coding guidelines:
+-Don't use lambdas
+-Spaces between operators
+-Comment everything
+
+Silva - Data Analysis: A Bayesian Tutorial
+
+TASK: 
+-Write code to grab relevant Kepler/K2 data directly via (MAST?) API
+
+Longer-term goal: 
+-Use spectral type / age as the prior for the other
+-Predict if flare rate correlated with spectral type
+-Add uncertainties to Rishi's linear fit of spectral type flare rates
