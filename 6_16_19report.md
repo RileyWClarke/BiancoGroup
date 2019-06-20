@@ -20,7 +20,7 @@ LinearFittingExercises.ipynb : Completed Chapter 1 exersizes from Hogg et al. 20
 .
 ## 2. Figures
 
-Figure 1 : ![k2scatter_contour]
+Figure 1 : ![k2scatter_contour](https://github.com/RileyWClarke/BiancoGroupSummer2019/files/3312267/k2scatter_contour.pdf)
 .
 .
 .
