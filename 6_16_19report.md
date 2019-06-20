@@ -1,4 +1,4 @@
-# Name - Week of 06/16/2019
+# Riley Clarke - Week of 06/16/2019
 
 ## 1. 
 
@@ -18,13 +18,13 @@ LinearFittingExercises.ipynb : Completed Chapter 1 exersizes from Hogg et al. 20
 .
 .
 .
-## 2. Figures (at least 1 figure)
+## 2. Figures
 
-Figure 1 : 
+Figure 1 : ![k2scatter_contour]
 .
 .
 .
-### 3 Results 
+## 3 Results 
 
 With some help, was able to figure out what was going wrong with using astroML.plotting.scatter_contour to add density contours to the K2 H-R diagram in BiancoSummer2019.ipynb. 
 
