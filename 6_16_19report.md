@@ -20,7 +20,7 @@ LinearFittingExercises.ipynb : Completed Chapter 1 exersizes from Hogg et al. 20
 .
 ## 2. Figures
 
-![](Figures/k2scatter_contour.pdf?raw=true)
+![](Figures/k2scatter_contour.png?raw=true)
 
 Figure 1 is an H-R diagram of ~300000 stars in the K2 target data obtained from the NASA Exoplanet Archive API. Past a density threshold of 50 points per bin, contours are added to show detail in the high-density regions along the main sequence. 
 .
