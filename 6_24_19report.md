@@ -17,9 +17,7 @@ Figure 10 of the paper shows the FFD fits for spectral types M4 through L0+L1. T
 
 BiancoGroup2019.ipynb: Read in Table 3 data from Paudel et al. 2018 using pandas.read_csv() again. Added histograms of flare energy for each target.
 
-LinearFittingExercises.ipynb: Tweaking priors seems to have solved issues with log_likelihood returning too few points. Corner plot shows that the MCMC is actually producing proper posteriors now. Still need to sample MAP fit parameters from results and plot over data.
-
-.
+LinearFittingExercises.ipynb: Tweaking priors seems to have solved issues with log_likelihood returning too few points. Corner plot shows that the MCMC is actually producing proper posteriors now. Added posteriors and MAP fit over Problem 6 data.
 .
 .
 ## 2. Figures
@@ -31,6 +29,10 @@ Flare energy histograms of each target in Paudel et al. 2018
 ![](Figures/prob6_corner.png?raw=true)
 
 Corner plot of MCMC results for Problem 6 of Hogg et al. 2010
+
+![](Figures/prob6_posts.png?raw=true)
+
+Posterior fits and maximum a posteriori (MAP) fit for Problem 6 of Hogg et al. 2010
 .
 .
 .
@@ -38,4 +40,4 @@ Corner plot of MCMC results for Problem 6 of Hogg et al. 2010
 
 Applied techniques for reading in data (pandas.read_csv()) to Table 3 in Paudel et al. 2018. Created histograms of log flare energy (ergs). Next step is using this data to make my own flare frequency distributions (FFDs) of the ten targets from the paper.
 
-Finally seeing some success on the Emcee front! Turns out choosing reasonable priors is VERY important, and sometimes they need to be tweaked a bit. The issue was that I was initiating the MCMC walkers at an m value outside the specified prior. Unsurprisingly, this resulted in very few valid values being returned by the log_likelihood function while the walkers were roaming about in parts of parameter space excluded by the priors I had set. Next step is plotting the posterior fits against the data and selecting the MAP value s as the true fit.
+Finally seeing some success on the Emcee front! Turns out choosing reasonable priors is VERY important, and sometimes they need to be tweaked a bit. The issue was that I was initiating the MCMC walkers at an m value outside the specified prior. Unsurprisingly, this resulted in very few valid values being returned by the log_likelihood function while the walkers were roaming about in parts of parameter space excluded by the priors I had set. 
