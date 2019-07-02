@@ -14,3 +14,10 @@ Longer-term goal:
 -Use spectral type / age as the prior for the other
 -Predict if flare rate correlated with spectral type
 -Add uncertainties to Rishi's linear fit of spectral type flare rates
+
+
+Make FFDs from flare histograms
+
+Do K-S test on flare histograms
+Also, Anderson-Darling test
+Bayesian Information Criterion
