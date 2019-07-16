@@ -21,3 +21,11 @@ Make FFDs from flare histograms
 Do K-S test on flare histograms
 Also, Anderson-Darling test
 Bayesian Information Criterion
+
+------
+
+Look up apparent magnitudes of Rishi's targets.
+
+Fit broken power laws
+
+Remove last point from FFDs and re-do fits
