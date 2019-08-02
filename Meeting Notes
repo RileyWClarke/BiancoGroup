@@ -29,3 +29,9 @@ Look up apparent magnitudes of Rishi's targets.
 Fit broken power laws
 
 Remove last point from FFDs and re-do fits
+
+------
+
+Go thru light curve with rolling window, get Fc in window with sigma-clipped median, let ED be the maximum Ff-Fc / Fc calculated in window. Disregard windows with no ED, i.e. no flare
+
+
