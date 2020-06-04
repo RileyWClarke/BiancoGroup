@@ -1,0 +1,28 @@
+# Riley Clarke - Week of 06/05/2020
+
+## 1. 
+
+### 1.1 Papers Read
+
+
+### 1.2 Code Written
+
+fftfiltering2.ipynb: Added script to read-in and filter nans from .fits files from the NASA K2 mission API. Brought over bandpass_ifft function from previous fftfiltering.ipynb notebook, added plot selection keyword. Ran the filtering function on lightcurves obtained from the API, plotted power spectra.
+
+## 2. Figures
+
+![](Figures/6_5_20comparison.png?raw=true)
+
+Comparison of one input lightcurve (right) with its resulting power spectrum (left).
+
+## 3 Results & Future Goals
+
+### 3.1 Results
+Created framework for reading in, cleaning, and performing FFT filtering on large numbers of .fits files. Only did 46 objects as proof of concept, but script should generalizable to reading in all available K2 files.
+Removed first 2 values from power spectra plots to make detail visible.
+
+### 3.2 Goals
+
+Simple removal of nans from files problematic due to non-uniform sampling. Work on filling in missing values via interpolation; create histogram of 'gap width' to check for continuous nan regions.
+Run PCA analysis on power spectra once nan cleaning is fixed. 
+
